@@ -17,6 +17,6 @@ jobs:
         working-directory: hello
       - run: npm run build
         working-directory: hello
-      - uses: ./
+      - uses: ponkio-o/release-js-action@pr/1
         with:
           version: latest
